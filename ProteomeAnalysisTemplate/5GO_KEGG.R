@@ -12,6 +12,8 @@ library(org.Hs.eg.db)
 library(tidyverse)
 library(ggforce)
 
+# options(timeout = 300)  # 初始化KEGG库需要下载比较长时间
+
 GO_database <- org.Hs.eg.db
 KEGG_database <- "hsa"
 

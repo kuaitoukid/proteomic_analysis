@@ -4,9 +4,7 @@ library(dplyr)
 library(stringr)
 
 # >>> read data >>>
-gene.dat <- read.delim("./data/1_gene_data.txt")
 gene.dat <- read.delim("./data/origin_data.txt")
-gene.dat <- read.delim("../DIA analysis code/data/origin_data.txt")
 
 # >>> quality control >>>
 # gene.dat <- gene.dat[which(gene.dat$Sum.PEP.Score >= 5), ]
